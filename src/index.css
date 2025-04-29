@@ -1,0 +1,9 @@
+body {
+  height: 400px;
+  width: auto;
+  background-image: url(./assets/istockphoto-1313115119-2048x2048.jpg);
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
