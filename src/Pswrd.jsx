@@ -37,17 +37,15 @@ const Pswrd = () => {
         justifyContent: "center",
         gap: "7px",
         borderRadius: "15px",
-        boxShadow: "1px 1px 1px 1px grey",
+        boxShadow: "2px 2px 2px 2px grey",
         alignItems: "center",
         backgroundColor: "white",
-        width: "400px",
-        height: "140px",
+        width: "440px",
+        height: "180px",
         flexDirection: "column",
       }}
     >
-      <h2 style={{ backgroundColor: "yellow", width: "400px" }}>
-        Password Creator
-      </h2>
+      <h1 style={{ color: "gold" }}>Password Creator</h1>
       <div>
         <input
           ref={passwordRef}
@@ -67,7 +65,7 @@ const Pswrd = () => {
           flexDirection: "row",
         }}
       >
-        <div>
+        <div style={{ display: "flex" }}>
           <input
             type="range"
             min={8}

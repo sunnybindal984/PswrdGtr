@@ -1,9 +1,12 @@
 body {
-  height: 400px;
-  width: auto;
+  /* position: absolute; */
+  height: 80vh;
+  /* padding: 0; */
+  /* margin: 0; */
+  margin-left: 350px;
+  /* box-sizing: border-box; */
   background-image: url(./assets/istockphoto-1313115119-2048x2048.jpg);
-  margin: auto;
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
 }
